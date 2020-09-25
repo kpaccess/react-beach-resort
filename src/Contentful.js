@@ -1,4 +1,3 @@
-import React from 'react';
 import { createClient } from 'contentful';
 
 export default createClient({

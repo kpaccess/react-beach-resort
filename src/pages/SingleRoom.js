@@ -1,7 +1,6 @@
 import React, { Component} from 'react';
 import { Link } from 'react-router-dom';
 import defaultBcg from '../images/room-1.jpeg';
-import Hero from '../components/Hero';
 import Banner from '../components/Banner';
 import { RoomContext } from '../context';
 import StyledHero from "../components/StyledHero";
@@ -34,7 +33,7 @@ class SingleRoom extends Component {
         }
 
 
-        const { breakfast, capacity, description, extras, id, name, price, size, images, pets } = room;
+        const { breakfast, capacity, description, extras, name, price, size, images, pets } = room;
 
         const [ mainImg, ...defaultImg ]= images;
         return (
